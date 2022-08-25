@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DDT]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="DDTTesting(failed)">
+    <classes>
+      <class name="com.newtest.TestCases.HandleMultipleWindows">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="switchingWindow"/>
+          <include name="windowhandling"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.newtest.TestCases.HandleMultipleWindows -->
+    </classes>
+  </test> <!-- DDTTesting(failed) -->
+</suite> <!-- Failed suite [DDT] -->
