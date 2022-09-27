@@ -3,10 +3,12 @@
 
 <suite name="DDT">
 <test name="DDTTesting" parallel="methods" thread-count="5">
+<!-- <parameter name="browser" value="chrome"/>-->
 <classes>
 
-<class name="com.newtest.TestCases.BrowserScrollingTest"/>
-<class name="com.newtest.TestCases.HandleMultipleWindows"/>
+<!-- <class name="com.newtest.TestCases.BrowserScrollingTest"/>
+<class name="com.newtest.TestCases.HandleMultipleWindows"/> -->
+<class name="com.newtest.TestCases.Loop"/>
 
 </classes>
 

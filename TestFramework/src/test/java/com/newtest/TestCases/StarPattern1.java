@@ -5,6 +5,21 @@ import org.testng.annotations.Test;
 public class StarPattern1 {
 
 	@Test
+	public void fibonacciSeries()
+	{
+		int x=0;
+		int y=1;
+		for(int i=0; i<=10; i++)
+		{
+			System.out.print(x+" ,");
+			int z=x+y;
+			x=y;
+			y=z;
+		}
+	}
+	
+	
+	@Test
 	public void firstStarPattern() {
 		System.out.println("Belos is FirstStar Pattern");
 		for (int i = 0; i < 5; i++) {
@@ -76,6 +91,8 @@ public class StarPattern1 {
 			System.out.println("");
 		}
 	}
+
+	
 	@Test(invocationCount=10, timeOut=1000)
 	public void test()
 	{
