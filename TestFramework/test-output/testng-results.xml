@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-26T22:53:15 IST" name="Default suite" finished-at="2022-09-26T22:53:15 IST" duration-ms="72">
+  <suite started-at="2022-09-28T11:43:12 IST" name="Default suite" finished-at="2022-09-28T11:43:12 IST" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2022-09-26T22:53:15 IST" name="Default test" finished-at="2022-09-26T22:53:15 IST" duration-ms="72">
-      <class name="com.newtest.JavaPractice.ArrayLIST_DynamicArray">
-        <test-method signature="dynamicArray()[pri:0, instance:com.newtest.JavaPractice.ArrayLIST_DynamicArray@50eac852]" started-at="2022-09-26T22:53:15 IST" name="dynamicArray" finished-at="2022-09-26T22:53:15 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-09-28T11:43:12 IST" name="Default test" finished-at="2022-09-28T11:43:12 IST" duration-ms="68">
+      <class name="com.newtest.JavaPractice.PelindromeString">
+        <test-method signature="pelindromeTest()[pri:0, instance:com.newtest.JavaPractice.PelindromeString@50eac852]" started-at="2022-09-28T11:43:12 IST" name="pelindromeTest" finished-at="2022-09-28T11:43:12 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicArray -->
-      </class> <!-- com.newtest.JavaPractice.ArrayLIST_DynamicArray -->
+        </test-method> <!-- pelindromeTest -->
+      </class> <!-- com.newtest.JavaPractice.PelindromeString -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
