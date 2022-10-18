@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.newtest.JavaPractice.ArrayLIST_DynamicArray">
+      <class name="com.newtest.TestCases.StringTest">
         <methods>
-          <include name="dynamicArray"/>
+          <include name="launchBrowser"/>
+          <include name="StringMethods"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.newtest.JavaPractice.ArrayLIST_DynamicArray -->
+      </class> <!-- com.newtest.TestCases.StringTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T11:43:12 IST" name="Default suite" finished-at="2022-09-28T11:43:12 IST" duration-ms="68">
+  <suite started-at="2022-10-17T18:27:18 IST" name="Default suite" finished-at="2022-10-17T18:27:18 IST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2022-09-28T11:43:12 IST" name="Default test" finished-at="2022-09-28T11:43:12 IST" duration-ms="68">
-      <class name="com.newtest.JavaPractice.PelindromeString">
-        <test-method signature="pelindromeTest()[pri:0, instance:com.newtest.JavaPractice.PelindromeString@50eac852]" started-at="2022-09-28T11:43:12 IST" name="pelindromeTest" finished-at="2022-09-28T11:43:12 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-10-17T18:27:18 IST" name="Default test" finished-at="2022-10-17T18:27:18 IST" duration-ms="64">
+      <class name="com.newtest.TestCases.AAPracticeTest">
+        <test-method signature="testing()[pri:0, instance:com.newtest.TestCases.AAPracticeTest@50eac852]" started-at="2022-10-17T18:27:18 IST" name="testing" finished-at="2022-10-17T18:27:18 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pelindromeTest -->
-      </class> <!-- com.newtest.JavaPractice.PelindromeString -->
+        </test-method> <!-- testing -->
+      </class> <!-- com.newtest.TestCases.AAPracticeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
