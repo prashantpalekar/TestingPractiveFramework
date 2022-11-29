@@ -27,7 +27,7 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 		}
 
-		//sdf driver.get("https://essendev.ecares.io/Account/FormAuthenticationLogin");
+		// sdf driver.get("https://essendev.ecares.io/Account/FormAuthenticationLogin");
 		// --Use this for DataDrivenTest
 		// driver.get("https://skpatro.github.io/demo/links/"); //URL for multiple
 		// windows handling Test
@@ -35,17 +35,8 @@ public class BaseClass {
 
 	}
 
-	// @AfterClass
-	@AfterSuite
+	@AfterClass
 	public void tearDown() {
-		System.out.println("--------------");
-		String parentWindow = driver.getWindowHandle();
-		Set<String> allOpenWindows = driver.getWindowHandles();
-		System.out.println("All Open windows at the end are "+ allOpenWindows);
-		for (String child : allOpenWindows) {
-			System.out.println("Child win id is " + child);
-			driver.switchTo().window(child);
-		}
+		driver.quit();
 	}
-
 }

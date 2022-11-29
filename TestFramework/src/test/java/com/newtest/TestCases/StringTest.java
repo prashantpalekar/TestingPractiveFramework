@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
 
 import com.newtest.Testing.BaseClass;
 
-public class StringTest extends BaseClass {
+public class StringTest extends BaseClass 
+{
 
 	@Test
 	public void StringMethods() {

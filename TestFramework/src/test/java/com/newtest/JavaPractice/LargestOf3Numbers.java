@@ -31,7 +31,7 @@ public class LargestOf3Numbers {
 		int y=600;
 		int z=700;
 		
-		int largestOf2= x>y?x:y;  //It will check if X is greater than Y. If X is greater then i will return X. If Y is greater then it will return Y
+		int largestOf2= x>y?x:y;  //It will check if X is greater than Y. If X is greater then it will return X. If Y is greater then it will return Y
 		System.out.println(largestOf2);
 		
 		int largestOf3=largestOf2>z?largestOf2:z;

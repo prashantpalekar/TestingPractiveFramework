@@ -77,6 +77,28 @@ public class StarPattern1 {
 		}
 
 	}
+	@Test
+	public void testp()
+	{
+		for(int x=0; x<=5; x++)
+		{
+			for(int y=0; y<=x; y++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int a=5; a>=0; a--)
+		{
+			for(int b=0; b<=a; b++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		
+	}
 
 	@Test
 	public void FifthStarPattern() {

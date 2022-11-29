@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="DDT">
-<test name="DDTTesting" parallel="methods" thread-count="5">
+<suite name="DDT">  <!-- We can define parallel="tests" only at SUIT level-->
+<listeners>
+		<listener class-name="com.newtest.Utilities.Reporting" />
+	</listeners>
+
+<test name="DDTTesting" parallel="methods" thread-count="2">
+ <!-- We can define parallel="methods" or parallel="classes" only at TEST level-->
 <!-- <parameter name="browser" value="chrome"/>-->
 <classes>
 
-<!-- <class name="com.newtest.TestCases.BrowserScrollingTest"/>
-<class name="com.newtest.TestCases.HandleMultipleWindows"/> -->
-<class name="com.newtest.TestCases.Loop"/>
+
+<class name="com.newtest.TestCases.HandleMultipleWindows"/>
+<class name="com.newtest.TestCases.BrowserScrollingTest"/>
+<!-- <class name="com.newtest.TestCases.DDT_Facebook"/>
+<class name="com.newtest.TestCases.DDT_LoginPg"/>
+<class name="com.newtest.TestCases.Loops"/>-->
 
 </classes>
 
